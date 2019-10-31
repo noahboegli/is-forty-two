@@ -1,4 +1,5 @@
 # Is Forty Two
+![Code Quality is over 9000](https://img.shields.io/badge/code%20quality-Over%209000-brightgreen)  
 Is forty two is a powerful, well-engineered and optimised javascript library to check if a number is 42.
 The idea came from the library "is-thirteen" (https://github.com/jezen/is-thirteen) which does the same as this library but for the number 13.   
 This library is frequently updated and new features are added whenever we have the idea of a new one.
