@@ -1,0 +1,29 @@
+{
+  "name": "is-forty-two",
+  "version": "1.0.0",
+  "description": "Check if a number is equal to 42",
+  "main": "is-forty-two.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahboegli/is-forty-two.git"
+  },
+  "keywords": [
+    "jsavascript"
+  ],
+  "author": {
+    "name": "Noah Buegli"
+  },
+  "contributors": [
+    {
+      "name": "Simon Ackermann"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noahboegli/is-forty-two/issues"
+  },
+  "homepage": "https://github.com/noahboegli/is-forty-two#readme"
+}
