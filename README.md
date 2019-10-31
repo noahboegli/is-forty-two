@@ -10,6 +10,7 @@ To start using this lovely library, simply include the script in your HTML docum
 And then you can use it that way:
 ```javascript
 is(85).dividedBy(2).times(4).plus(44).minus(2).multipleOf().FortyTwo(); // False
+is(41.5).dividedBy(2).times(2).plus(3).minus(2).roughly().FortyTwo(); // True
 is(1977).theYearTheAgeOfPeopleBornThisYearIs().FortyTwo(); // True
 ```
 More generally:
@@ -19,6 +20,7 @@ is(yourNumber).{operations}.{option}.FortyTwo();
 Note: operations & options are not necessary:
 ```javascript
 is(42).FortyTwo(); // True
+is(24).FortyTwo(); // False
 ```
 
 ### Operations
