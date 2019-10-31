@@ -31,7 +31,7 @@ is(24).FortyTwo(); // False
 * `plus(value)`
 * `times(value)`
 * `dividedBy(value)`
-* `theAnswerTwo(equation)` see below
+* `theAnswerTo(equation)` see below
 
 ### Options
 * `theYearTheAgeOfPeopleBornThisYearIs()`
@@ -43,6 +43,6 @@ is(24).FortyTwo(); // False
 ## Equations
 Do you have an equation and you want to know if the value for x is 42? No problem!
 ```javascript
-is().theAnswerTwo("2 * x + 3 = 1 * x + 45").FortyTwo(); // True
+is().theAnswerTo("2 * x + 3 = 1 * x + 45").FortyTwo(); // True
 ```
 __Important:__ The syntax of a regular javascript arithmetic expression must be followed. See: https://www.w3schools.com/js/js_arithmetic.asp.

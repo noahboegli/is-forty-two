@@ -30,7 +30,7 @@ class FortyTwoNumberManager{
         return this;
     }
 
-    theAnswerTwo(equation){
+    theAnswerTo(equation){
         this.value = equation;
         this.type = "equation";
         return this;
