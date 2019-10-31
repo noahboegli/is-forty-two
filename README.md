@@ -43,4 +43,4 @@ Do you have an equation and you want to know if the value for x is 42? No proble
 ```javascript
 is().theAnswerTwo("2 * x + 3 = 1 * x + 45").FortyTwo(); // True
 ```
-__Important:__ The syntax of a regular javascript mathematical must be followed. See: https://www.w3schools.com/js/js_arithmetic.asp.
+__Important:__ The syntax of a regular javascript arithmetic expression must be followed. See: https://www.w3schools.com/js/js_arithmetic.asp.
