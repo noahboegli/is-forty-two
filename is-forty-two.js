@@ -39,6 +39,11 @@ class FortyTwoNumberManager{
         this.type = "multipleof";
         return this;
     }
+
+    containing(){
+        this.type = "containing"
+        return this;
+    }
         
 
     FortyTwo(){   
@@ -54,6 +59,11 @@ class FortyTwoNumberManager{
         if(this.type == "multipleof" && this.value % 42 == 0){
             isOk = true;
         }
+
+        if(this.type == "containing" && this.value.toString().match("(42)")){
+            isOk = true;
+        }
+
         return isOk;
     }
 

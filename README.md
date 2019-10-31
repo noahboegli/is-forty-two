@@ -33,3 +33,4 @@ is(24).FortyTwo(); // False
 * `theYearTheAgeOfPeopleBornThisYearIs()`
 * `roughly()`
 * `multipleOf()`
+* `containing()`
