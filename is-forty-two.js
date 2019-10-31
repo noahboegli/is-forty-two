@@ -30,6 +30,12 @@ class FortyTwoNumberManager{
         return this;
     }
 
+    theAnswerTwo(equation){
+        this.value = equation;
+        this.type = "equation";
+        return this;
+    }
+
     roughly(){
         this.type = "rough";
         return this;
@@ -73,6 +79,15 @@ class FortyTwoNumberManager{
             isOk = true;
         }
 
+        if(this.type == "equation"){
+            var leftSide = this.value.toString().split("=")[0];
+            var rightSide = this.value.toString().split("=")[1];
+            leftSide = leftSide.replace("x", "42");
+            rightSide = rightSide.replace("x", "42");
+            if(eval(leftSide) == eval(rightSide))
+                isOk = true;                
+        }
+
         return isOk;
     }
 
@@ -80,6 +95,6 @@ class FortyTwoNumberManager{
 }
 
 
-function is(value){
+function is(value = 42){
     return new FortyTwoNumberManager(value);
 }
