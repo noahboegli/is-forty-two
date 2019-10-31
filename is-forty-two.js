@@ -44,6 +44,11 @@ class FortyTwoNumberManager{
         this.type = "containing"
         return this;
     }
+
+    theInvertedDigitsOf(){
+        this.type = "invert-digits"
+        return this;
+    }
         
 
     FortyTwo(){   
@@ -61,6 +66,10 @@ class FortyTwoNumberManager{
         }
 
         if(this.type == "containing" && this.value.toString().match("(42)")){
+            isOk = true;
+        }
+
+        if(this.type == "invert-digits" && this.value.toString().split('')[0] == 2 && this.value.toString().split('')[1] == 4){
             isOk = true;
         }
 
